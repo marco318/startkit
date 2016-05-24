@@ -14,6 +14,7 @@
 		246F3D6F1CF400500034A5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246F3D6D1CF400500034A5AA /* LaunchScreen.storyboard */; };
 		246F3D7A1CF400510034A5AA /* startkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F3D791CF400510034A5AA /* startkitTests.swift */; };
 		246F3D851CF400510034A5AA /* startkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F3D841CF400510034A5AA /* startkitUITests.swift */; };
+		246F3D941CF4020F0034A5AA /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F3D931CF4020F0034A5AA /* Networking.swift */; };
 		3DD918933D80DBBE34B4D1F7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FBC88C2E67F098DFDDDCF9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		246F3D801CF400510034A5AA /* startkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = startkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		246F3D841CF400510034A5AA /* startkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startkitUITests.swift; sourceTree = "<group>"; };
 		246F3D861CF400510034A5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246F3D931CF4020F0034A5AA /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		42FBC88C2E67F098DFDDDCF9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEE8EC91FB41BDA419D83D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F957DE5504EDFA9990A0A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		246F3D921CF401E50034A5AA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				246F3D931CF4020F0034A5AA /* Networking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246F3D941CF4020F0034A5AA /* Networking.swift in Sources */,
 				246F3D671CF400500034A5AA /* ViewController.swift in Sources */,
 				246F3D651CF400500034A5AA /* AppDelegate.swift in Sources */,
 			);
